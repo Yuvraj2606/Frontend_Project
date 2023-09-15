@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.css-mhc70k-MuiGrid-root > .MuiGrid-item > a {
+  display: block;
+  background-color: darkseagreen;
+  text-decoration: none;
+  padding: 15px;
+  transition-duration: 100ms;
+  border-bottom: 1px black;
+}
+
+.css-mhc70k-MuiGrid-root > .MuiGrid-item > a:hover {
+  background-color: burlywood;
+  color: bisque;
+}
+
+label+.css-v4u5dn-MuiInputBase-root-MuiInput-root {
+  margin : 20px 0px !important
+}
+
+label+.css-v4u5dn-MuiInputBase-root-MuiInput-root label,
+label+.css-v4u5dn-MuiInputBase-root-MuiInput-root input,
+label+.css-v4u5dn-MuiInputBase-root-MuiInput-root textarea {
+  font-size: 24px;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: rgb(63, 23, 172);
+}
+
+table tbody tr:nth-child(odd) td {
+  color: aliceblue;
+}
+
+table tbody tr:hover {
+  background-color: lightgrey;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  animation-name: anim_1;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes anim_1 {
+  from {
+    transform : rotateZ(0deg);
+  }
+  to {
+    transform :rotateZ(360deg);
+  }
+}
+
+
+
+/*selectors 
+units
+float and positions
+flex
+animations
+media queries
+*/
